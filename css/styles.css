@@ -626,7 +626,7 @@ margin-right: auto;
       position: relative;
      }
 
-     .input-name {
+     .input-modal {
       width: 100%;
       height: 40px;
       border-radius: 4px;
@@ -637,7 +637,7 @@ margin-right: auto;
       transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
       }
 
-      .input-name:focus {
+      .input-modal:focus {
         border-color: #4D5AE5;
       }
 
@@ -650,44 +650,8 @@ margin-right: auto;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
       }
 
-      .input-name:focus + .icon-person{
+      .input-modal:focus + .icon-modal{
       fill: #4D5AE5;
-      }
-
-      .input-phone {
-       width: 100%;
-       height: 40px;
-       border-radius: 4px;
-       background-color: transparent;
-       border: 1px solid rgba(46, 47, 66, 0.40);
-       padding-left: 38px;
-       outline: 0px solid transparent;
-      }
-
-      .input-phone:focus {
-        border-color: #4D5AE5;
-      }
-
-      .input-phone:focus+.icon-phone {
-       fill: #4D5AE5;
-      }
-
-      .input-email {
-       width: 100%;
-       height: 40px;
-       border-radius: 4px;
-       background-color: transparent;
-       border: 1px solid rgba(46, 47, 66, 0.40);
-       padding-left: 38px;
-       outline: 0px solid transparent;
-      }
-
-      .input-email:focus{
-        border-color:#4D5AE5;
-      }
-
-      .input-email:focus+.icon-email {
-        fill: #4D5AE5;
       }
 
       .wrapper-comment {
@@ -698,16 +662,16 @@ margin-right: auto;
         width: 100%;
         height: 120px;
         border-radius: 4px;
+        color: rgba(46, 47, 66, 0.4);
         background-color: transparent;
         border: 1px solid rgba(46, 47, 66, 0.40);
         padding-left: 38px;
         outline: 0px solid transparent;
-        padding-top: 8px;
-        padding-left: 16px;
+        padding: 8px 16px;
         font-size: 12px;
         font-weight: 400;
         line-height: 1.17;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.04em;
         resize: none;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         margin-bottom: 16px;
@@ -759,6 +723,7 @@ margin-right: auto;
       .input-checkbox:checked+.label-checkbox>.own-checkbox {
         background-color:#404BBF;
         border: none;
+        fill: #F4F4FD;
           }
 
       .input-checkbox:hover+.label-checkbox>.own-checkbox {
@@ -772,7 +737,7 @@ margin-right: auto;
 
       .input-checkbox:checked+.label-checkbox .icon-chek_mark {
         opacity: 1;
-        fill: #F4F4FD;
+        fill:#4D5AE5;;
       }
 
       .form-btn {
