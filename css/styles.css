@@ -458,8 +458,12 @@ margin-right: auto;
       margin-right: 80px;
      }
 
-     .label-form-footer {
-      display: block;
+     .form-footer{
+      display: flex;
+      flex-direction: column;
+     }
+
+     .title-form-footer {
       color:  #FFF;  
       font-size: 16px;
       font-weight: 500;
@@ -467,6 +471,13 @@ margin-right: auto;
       letter-spacing: 0.32px;
       margin-bottom: 16px;
      }
+
+      .form-footer-subscribe{
+        display: flex;
+        gap: 24px;
+      }
+
+      
 
      .input-form-footer {
       width: 264px;
@@ -477,7 +488,6 @@ margin-right: auto;
       background-color: inherit;
       outline: transparent;
       padding-left: 16px;
-      margin-right: 23px;
       transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
      }
 
@@ -495,7 +505,7 @@ margin-right: auto;
      }
 
      .button-footer {
-      display: inline-flex;
+      display: flex;
       min-width: 165px;
       height: 40px;
       justify-content: center;
