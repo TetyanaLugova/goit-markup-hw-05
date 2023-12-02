@@ -701,8 +701,6 @@ margin-right: auto;
       }
 
       .label-checkbox {
-        display: inline-flex;
-        justify-content: center;
        color:  #8E8F99;
        font-size: 12px;
        font-weight: 400;
