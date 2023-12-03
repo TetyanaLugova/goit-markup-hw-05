@@ -739,12 +739,13 @@ margin-right: auto;
        }
 
        .icon-chek_mark {
+        fill: #F4F4FD;
         opacity: 0;
        }
 
       .input-checkbox:checked+.label-checkbox .icon-chek_mark {
         opacity: 1;
-        fill: #F4F4FD;      }
+           }
 
       .form-btn {
        display: block;
